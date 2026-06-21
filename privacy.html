@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — Hurofi</title>
+  <title>Privacy Policy — Hurofi | سياسة الخصوصية — حروفي</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -25,49 +25,169 @@
     nav { margin-bottom: 24px; font-size: 0.9rem; }
     nav a { text-decoration: none; }
     nav a:hover { text-decoration: underline; }
+    .lang-switch {
+      display: inline-flex;
+      background: #fff;
+      border: 1px solid rgba(26,35,126,0.15);
+      border-radius: 999px;
+      padding: 4px;
+      font-family: system-ui, sans-serif;
+      font-size: 0.85rem;
+      margin-bottom: 20px;
+    }
+    .lang-switch a {
+      padding: 6px 14px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #546e7a;
+      font-weight: 600;
+    }
+    .lang-switch a.active {
+      background: #1a237e;
+      color: #fff;
+    }
+    .callout {
+      background: #e8ecf8;
+      border-left: 4px solid #1a237e;
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin: 18px 0;
+      font-size: 0.95rem;
+    }
+    .ar {
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      direction: rtl;
+      text-align: right;
+      margin-top: 56px;
+      padding-top: 40px;
+      border-top: 2px solid rgba(26,35,126,0.12);
+    }
+    .ar ul { margin: 0 0 14px 0; padding-right: 24px; padding-left: 0; }
+    .ar .callout { border-left: none; border-right: 4px solid #1a237e; }
   </style>
 </head>
 <body>
   <main>
     <nav><a href="index.html">← Hurofi Legal</a></nav>
-    <h1>Hurofi — Learn Arabic for Kids</h1>
-    <p><strong>Privacy Policy</strong></p>
-    <p class="meta">Last updated: June 11, 2026<br>Developer: Digitovex, Dubai, United Arab Emirates</p>
 
-    <h2>The short version for parents</h2>
-    <p>Hurofi is built so that we never see your child's data. The app works fully offline. We do not collect, transmit, store on our servers, or sell any personal information. There are no ads, no analytics, no tracking, and no third-party advertising SDKs. Everything your child does in Hurofi stays on your device.</p>
+    <nav class="lang-switch" aria-label="Language">
+      <a href="#en" class="active">English</a>
+      <a href="#ar">العربية</a>
+    </nav>
 
-    <h2>What information the app stores — and where</h2>
-    <p>During setup, a parent may enter a child's nickname, choose an age range (3–5 or 6–8), and pick a companion character. The app also saves learning progress (completed levels and stars), sound preferences, and a record that a parent accepted these terms.</p>
-    <p>All of this is stored only on your device, in the app's local storage. It is never transmitted to Digitovex or anyone else. Deleting the app, or using "Reset progress" in Settings, permanently erases it. We have no copy and no way to recover it — by design.</p>
+    <section id="en" lang="en">
+      <h1>Hurofi — Learn Arabic for Kids</h1>
+      <p><strong>Privacy Policy</strong></p>
+      <p class="meta">Last updated: June 21, 2026<br>Developer: Digitovex, Dubai, United Arab Emirates</p>
 
-    <h2>What we do NOT do</h2>
-    <ul>
-      <li>No analytics or telemetry SDKs of any kind</li>
-      <li>No advertising and no ad networks</li>
-      <li>No account creation — we never ask for an email, phone number, or password</li>
-      <li>No camera, microphone, contacts, or location access</li>
-      <li>No collection of names, photos, or any personal information on our servers</li>
-      <li>No sale or sharing of data — we have nothing to sell or share</li>
-    </ul>
+      <h2>The short version for parents</h2>
+      <p>Hurofi is a child-directed learning app. We do not show ads, do not use advertising SDKs, do not track your child across other apps, and do not sell personal data. Most learning happens on your device. We collect only what is needed to fix crashes, optionally save progress to an account you choose to create, and verify purchases behind a parental gate.</p>
 
-    <h2>Purchases (the one third party involved)</h2>
-    <p>Hurofi offers optional premium subscriptions and a one-time purchase, available only behind a parental gate. Payments are processed entirely by Apple App Store or Google Play under their own terms and privacy policies — we never see your payment details.</p>
-    <p>To check whether a purchase is active, the app uses RevenueCat, a subscription-management service. RevenueCat receives an anonymous random identifier and purchase receipt information from the app store. It does not receive your child's nickname, age, or any profile information, and we do not link purchase data to any personal information (we hold none). RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></p>
-    <p>This purchase check is the only network activity in the app, and it only occurs in connection with the parent-gated purchase and restore features. All learning content works fully offline.</p>
+      <div class="callout">
+        <strong>No ads. No cross-app tracking. No selling of data.</strong> Hurofi is built for children and is designed to be COPPA-conscious.
+      </div>
 
-    <h2>Text-to-speech</h2>
-    <p>Arabic pronunciation uses the text-to-speech engine built into your device's operating system (Apple iOS / Google Android). Speech is generated on the device. If a parent enters a nickname, the app may speak it locally as part of the greeting; the nickname never leaves the device.</p>
+      <h2>What information the app stores on your device</h2>
+      <p>During setup, a parent may enter a child's nickname, choose an age range (3–5 or 6–8), and pick a companion character. The app also saves learning progress (completed levels and stars), sound preferences, and a record that a parent accepted these terms.</p>
+      <p>By default, this information stays on your device in the app's local storage. It is not sent to Digitovex unless you choose optional account features described below. You can erase on-device data at any time via Settings → Reset progress, or by deleting the app.</p>
 
-    <h2>Children's privacy (COPPA / GDPR-K and similar laws)</h2>
-    <p>Hurofi is designed for children aged 3–8 and is built to the principle of data minimization: the best way to protect children's data is not to collect it. Because no personal information is collected or transmitted by Digitovex, there is nothing for us to access, correct, or delete on any server. Parents control all on-device data and can erase it at any time via Settings → Reset progress, or by deleting the app.</p>
-    <p>Setup steps that involve any choice about the child (nickname, consent, purchases) sit behind a parental gate intended for adults.</p>
+      <h2>Crash and diagnostic data (Sentry)</h2>
+      <p>We use <strong>Sentry</strong>, a third-party crash reporting service, to collect anonymous crash reports and basic device and diagnostic information (such as device model, operating system version, and app version) solely to detect and fix technical problems.</p>
+      <p>This data is <strong>not linked to your child</strong>, is not used for advertising, and is not used for cross-app tracking. Sentry's privacy policy: <a href="https://sentry.io/privacy/">https://sentry.io/privacy/</a></p>
 
-    <h2>Changes to this policy</h2>
-    <p>If we ever change what the app does with data — for example, adding optional analytics in a future version — we will update this policy first, change the "Last updated" date, and present the change to parents in the app before it takes effect.</p>
+      <h2>Optional account data (Supabase)</h2>
+      <p>If you choose to create an account, we collect your <strong>email address</strong> via <strong>Supabase</strong> solely to save and sync your child's learning progress across devices.</p>
+      <p>Account creation is <strong>optional</strong> — the app works fully without an account. Your email is never used for advertising and is not shared with third parties for marketing. Supabase's privacy policy: <a href="https://supabase.com/privacy">https://supabase.com/privacy</a></p>
+      <p>Creating an account is available only behind the parental gate and is intended for parents or guardians, not children entering their own email.</p>
 
-    <h2>Contact</h2>
-    <p>Questions or concerns:<br>Email: <a href="mailto:hello@digitovex.com">hello@digitovex.com</a><br>WhatsApp: +971 56 668 7386<br>Digitovex, Dubai, United Arab Emirates</p>
+      <h2>What we do NOT do</h2>
+      <ul>
+        <li><strong>No advertisements</strong> and no third-party advertising SDKs</li>
+        <li><strong>No cross-app tracking</strong> or behavioral profiling for marketing</li>
+        <li><strong>No sale of personal data</strong> — we do not sell or rent your information</li>
+        <li>No collection of children's photos, contacts, or precise location for our own use</li>
+        <li>No use of your email for marketing if you create an optional account</li>
+      </ul>
+
+      <h2>Purchases</h2>
+      <p>Hurofi offers optional premium subscriptions and a one-time purchase, available only behind a parental gate. Payments are processed entirely by Apple App Store or Google Play under their own terms and privacy policies — we never see your payment details.</p>
+      <p>To check whether a purchase is active, the app uses RevenueCat, a subscription-management service. RevenueCat receives an anonymous random identifier and purchase receipt information from the app store. It does not receive your child's nickname, age, or learning profile, and we do not link purchase data to your child's identity. RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></p>
+
+      <h2>Speech and audio</h2>
+      <p>Most spoken words, stories, and feedback in Hurofi use pre-recorded audio bundled in the app. If a parent enters a nickname, the app may speak it locally as part of the greeting; the nickname is not sent to us unless you use optional account sync (which stores progress, not voice recordings).</p>
+
+      <h2>Children's privacy (COPPA / GDPR-K)</h2>
+      <p>Hurofi is designed for children aged 3–8 and is child-directed. We follow a data-minimization approach: we collect only what is needed to run the app, fix crashes, and optionally sync progress when a parent chooses to create an account.</p>
+      <p>Setup steps that involve choices about the child (nickname, consent, account creation, purchases) sit behind a parental gate intended for adults. We do not knowingly collect personal information directly from children without appropriate parental involvement.</p>
+      <p>Parents can delete on-device data via Settings → Reset progress or by uninstalling the app. To delete an optional account and associated sync data, email <a href="mailto:hello@digitovex.com">hello@digitovex.com</a>.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>If we change what the app collects or how data is used, we will update this policy first, change the "Last updated" date, and present material changes to parents in the app where appropriate before they take effect.</p>
+
+      <h2>Contact</h2>
+      <p>Questions or concerns:<br>Email: <a href="mailto:hello@digitovex.com">hello@digitovex.com</a><br>WhatsApp: +971 56 668 7386<br>Digitovex, Dubai, United Arab Emirates</p>
+    </section>
+
+    <section id="ar" class="ar" lang="ar">
+      <h1>حروفي — لتعليم اللغة العربية للأطفال</h1>
+      <p><strong>سياسة الخصوصية</strong></p>
+      <p class="meta">آخر تحديث: 21 يونيو 2026<br>المطوّر: Digitovex، دبي، الإمارات العربية المتحدة</p>
+
+      <h2>ملخص سريع للأهل</h2>
+      <p>تطبيق حروفي موجّه للأطفال. لا نعرض إعلانات، ولا نستخدم حزم إعلانية من أطراف ثالثة، ولا نتتبع طفلك عبر تطبيقات أخرى، ولا نبيع البيانات الشخصية. معظم التعلّم يحدث على جهازك. نجمع فقط ما يلزم لإصلاح الأعطال، وحفظ التقدم اختيارياً في حساب تختار إنشاءه، والتحقق من الشراء خلف بوابة للأهل.</p>
+
+      <div class="callout">
+        <strong>لا إعلانات. لا تتبع عبر التطبيقات. لا بيع للبيانات.</strong> حروفي مُصمَّم للأطفال وبروح تحترم خصوصية الأطفال (COPPA).
+      </div>
+
+      <h2>ما يُخزَّن على جهازك</h2>
+      <p>قد يُدخل الوالد اسمًا مستعارًا للطفل، يختار فئة العمر (3–5 أو 6–8)، ويختار رفيقًا تعليميًا. يحفظ التطبيق أيضًا تقدم التعلّم (المستويات والنجوم)، تفضيلات الصوت، وسجل قبول هذه الشروط.</p>
+      <p>افتراضياً، تبقى هذه المعلومات على جهازك. لا تُرسل إلى Digitovex إلا إذا استخدمت ميزات الحساب الاختيارية أدناه. يمكنك مسح البيانات من الإعدادات → إعادة تعيين التقدم، أو بحذف التطبيق.</p>
+
+      <h2>بيانات الأعطال والتشخيص (Sentry)</h2>
+      <p>نستخدم <strong>Sentry</strong>، وهو خدمة طرف ثالث لتقارير الأعطال، لجمع تقارير أعطال مجهولة ومعلومات أساسية عن الجهاز والتشخيص (مثل طراز الجهاز، إصدار نظام التشغيل، وإصدار التطبيق) فقط لاكتشاف المشاكل التقنية وإصلاحها.</p>
+      <p>هذه البيانات <strong>غير مرتبطة بطفلك</strong>، ولا تُستخدم للإعلان، ولا تُستخدم للتتبع عبر التطبيقات. سياسة خصوصية Sentry: <a href="https://sentry.io/privacy/">https://sentry.io/privacy/</a></p>
+
+      <h2>بيانات الحساب الاختياري (Supabase)</h2>
+      <p>إذا اخترت إنشاء حساب، نجمع <strong>بريدك الإلكتروني</strong> عبر <strong>Supabase</strong> فقط لحفظ ومزامنة تقدم تعلّم طفلك بين الأجهزة.</p>
+      <p>إنشاء الحساب <strong>اختياري</strong> — التطبيق يعمل بالكامل دون حساب. لا يُستخدم بريدك للإعلان ولا يُشارك مع أطراف ثالثة لأغراض تسويقية. سياسة خصوصية Supabase: <a href="https://supabase.com/privacy">https://supabase.com/privacy</a></p>
+      <p>إنشاء الحساب متاح فقط خلف بوابة الأهل، وموجّه للوالدين أو المشرفين وليس لإدخال الأطفال بريدهم بأنفسهم.</p>
+
+      <h2>ما لا نقوم به</h2>
+      <ul>
+        <li><strong>لا إعلانات</strong> ولا حزم إعلانية من أطراف ثالثة</li>
+        <li><strong>لا تتبع عبر التطبيقات</strong> ولا إنشاء ملفات تعريف لأغراض تسويقية</li>
+        <li><strong>لا بيع للبيانات الشخصية</strong> — لا نبيع أو نؤجّر معلوماتك</li>
+        <li>لا جمع صور الأطفال، جهات الاتصال، أو الموقع الجغرافي الدقيق لاستخدامنا</li>
+        <li>لا استخدام بريدك للتسويق عند إنشاء حساب اختياري</li>
+      </ul>
+
+      <h2>الشراء داخل التطبيق</h2>
+      <p>يقدّم حروفي اشتراكات مميزة اختيارية وشراءً لمرة واحدة، متاحًا فقط خلف بوابة الأهل. تتم المدفوعات عبر متجر Apple أو Google وفق شروطهم وسياساتهم — ولا نرى تفاصيل الدفع.</p>
+      <p>للتحقق من صلاحية الشراء، يستخدم التطبيق RevenueCat. يتلقى RevenueCat معرّفًا عشوائيًا مجهولًا ومعلومات إيصال من المتجر، دون اسم الطفل أو عمره أو ملف تعلّمه. سياسة خصوصية RevenueCat: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></p>
+
+      <h2>الصوت والنطق</h2>
+      <p>معظم الكلام في حروفي (كلمات، قصص، تعليقات) من تسجيلات صوتية مضمّنة في التطبيق. إذا أدخل الوالد اسمًا مستعارًا، قد يُنطق محلياً في الترحيب؛ ولا يُرسل لنا إلا ضمن مزامنة التقدم الاختيارية (تقدم التعلّم وليس تسجيلات صوت).</p>
+
+      <h2>خصوصية الأطفال (COPPA / GDPR-K)</h2>
+      <p>حروفي مُصمَّم للأطفال من 3–8 أعوام وموجّه للأطفال. نلتزم بتقليل البيانات: نجمع فقط ما يلزم لتشغيل التطبيق، إصلاح الأعطال، ومزامنة التقدم اختيارياً عندما يختار الوالد إنشاء حساب.</p>
+      <p>خطوات الإعداد التي تتعلق بالطفل (الاسم المستعار، الموافقة، الحساب، الشراء) خلف بوابة للأهل. لا نجمع عن قصد معلومات شخصية مباشرة من الأطفال دون إشراف الوالد المناسب.</p>
+      <p>يمكن للأهل مسح بيانات الجهاز من الإعدادات → إعادة تعيين التقدم أو بحذف التطبيق. لحذف حساب اختياري وبيانات المزامنة، راسل <a href="mailto:hello@digitovex.com">hello@digitovex.com</a>.</p>
+
+      <h2>التعديلات على هذه السياسة</h2>
+      <p>إذا غيّرنا ما يجمعه التطبيق أو كيفية استخدام البيانات، سنحدّث هذه السياسة أولاً، نغيّر تاريخ "آخر تحديث"، ونُبلغ الأهل في التطبيق عند الاقتضاء قبل تطبيق التغييرات الجوهرية.</p>
+
+      <h2>للتواصل</h2>
+      <p>أسئلة أو استفسارات:<br>البريد: <a href="mailto:hello@digitovex.com">hello@digitovex.com</a><br>واتساب: +971 56 668 7386<br>Digitovex، دبي، الإمارات العربية المتحدة</p>
+    </section>
   </main>
+
+  <script>
+    const links = document.querySelectorAll('.lang-switch a');
+    links.forEach(link => link.addEventListener('click', () => {
+      links.forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+    }));
+  </script>
 </body>
 </html>
